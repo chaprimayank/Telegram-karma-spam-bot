@@ -3,4 +3,4 @@ A simple userbot written in Pyrogram to spam "pro" every 5 seconds and generate 
 
 Designed for @roronoa_zoro_robot, but should work with any bot with karma/points system.
 
-To run bot use, python3 spam.py
+To run bot, use python3 spam.py
