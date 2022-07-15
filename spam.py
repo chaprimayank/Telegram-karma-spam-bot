@@ -8,7 +8,7 @@ async def main() :
     async with app:
         while true:
             await app.send_message(message.chat.id, " pro ", reply_to_message_id=urmessageid)
-            await asyncio.sleep(15)
+            await asyncio.sleep(5)
  
  
 app.run(main())
