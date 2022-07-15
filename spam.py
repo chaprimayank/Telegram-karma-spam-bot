@@ -10,7 +10,7 @@ SESSION = Config.SESSION
 CHAT_ID = Config.CHAT_ID
 MSG_ID = Config.MSG_ID
 
-app = Client(api_id=Config.API_ID, api_hash=Config.API_HASH, session_name=Config.SESSION
+app = Client(api_id=Config.API_ID,api_hash=Config.API_HASH,session_name=Config.SESSION
 )
 
 async def main() :
