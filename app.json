@@ -1,0 +1,29 @@
+{
+    "name": "Telegram karma spam bot",
+    "description": "for xen",
+    "repository": "https://github.com/chaprimayank/Telegram-karma-spam-bot",
+    "image": "heroku/python",
+    "env": {
+        "MSG_ID": {
+        "description": "Enter Your Message ID"
+        },
+        "API_HASH":{
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "SESSION":{
+            "description": "Enter Your Pyrogram Session"
+        },
+        "API_ID":{
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "CHAT_ID":{
+        "description":"Enter Your Chat ID"
+        }
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "free"
+            }
+        }
+  }
