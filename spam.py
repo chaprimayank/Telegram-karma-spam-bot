@@ -15,8 +15,8 @@ app = Client(api_id=Config.API_ID,api_hash=Config.API_HASH,session_name=Config.S
 
 async def main() :
     async with app:
-        while true:
-            await app.send_message(CHAT_ID, "++", reply_to_message_id=MSG_ID)
+        while True:
+            await app.send_message(Config.CHAT_ID, "++", reply_to_message_id=Config.MSG_ID)
             await asyncio.sleep(15)
 
 
