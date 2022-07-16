@@ -22,7 +22,6 @@
         "TIME":{
         "description":"Per Second Message"
         },
-        }
     },
     "formation": {
             "worker": {
