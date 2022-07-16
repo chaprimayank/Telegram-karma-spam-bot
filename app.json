@@ -5,19 +5,25 @@
     "image": "heroku/python",
     "env": {
         "MSG_ID": {
-        "description": "Enter Your Message ID"
+        "description": "Enter Your Message ID. You can get message ID by copying link of any message in the group. The last integer value is the message ID"
         },
         "API_HASH":{
             "description": "Get this value from https://my.telegram.org"
         },
         "SESSION":{
-            "description": "Enter Your Pyrogram Session"
+            "description": "Enter Your Pyrogram Session."
         },
         "API_ID":{
             "description": "Get this value from https://my.telegram.org"
         },
         "CHAT_ID":{
-        "description":"Enter Your Chat ID"
+        "description":"Enter Your Chat ID. Add @Lena_MilizeBot to your private group, make her admin and do /id"
+        },
+        "TIME":{
+        "description":"Per Second Message"
+        },
+        "MESSAGE":{
+        "description":"Messsage that you want to spam. It could be ++ or pro, whatever you want!"
         }
     },
     "formation": {
