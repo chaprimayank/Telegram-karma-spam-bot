@@ -22,6 +22,9 @@
         "TIME":{
         "description":"Per Second Message"
         },
+        "MESSAGE":{
+        "description":"Messsage that you want to spam. It could be ++ or pro, whatever you want!"
+        }
     },
     "formation": {
             "worker": {
