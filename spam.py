@@ -3,7 +3,7 @@ import asyncio
 import random
 from config import *
 
-XEN = ["+","++","pro"]
+XEN = ["+","++","pro","thanks"]
 
 API_ID = Config.API_ID
 API_HASH = Config.API_HASH
